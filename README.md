@@ -51,22 +51,12 @@ Circuit Diagram
 Connect the NTC thermistor in a voltage divider with a 10kΩ resistor to GPIO2:
 Vref (3.3V) ---- 10kΩ Resistor ---- GPIO2 ---- NTC Thermistor ---- GND
 
- (Note: Add your own diagram to the docs/ folder and update this link.)
-Project Structure
-esp32s3-adc-driver/
-├── .gitignore               # Ignores build artifacts
-├── CMakeLists.txt           # Root build configuration
-├── docs/
-│   └── circuit.png          # Circuit diagram for hardware setup
-├── main/
-│   ├── adc_low_level.c      # ADC driver implementation
-│   ├── adc_low_level.h      # ADC driver header
-│   ├── CMakeLists.txt       # Component build configuration
-│   └── main.c               # Main application with FreeRTOS task
-├── tests/
-│   └── test_adc.c           # Unit tests for ADC driver
-├── README.md                # Project documentation
-└── LICENSE                  # MIT License
+
+
+<img width="834" height="191" alt="image" src="https://github.com/user-attachments/assets/85bc81c3-5000-4c21-a8f9-9a18dabf0672" />
+
+
+
 
 Technical Highlights
 
